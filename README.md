@@ -7,7 +7,7 @@ Utilize Python Pandas and Scikit-Learn to create multiple predictive models that
 
 ### Step 1: Preprocess the raw data
 * Cleaned the data, dropping null columns and rows
-* Set features and target
+* Set features and targets
 * Scaled the data using `MinMaxScaler()` for Linear Regression and SVM models
 
 ### Step 2: Tune the models
@@ -34,4 +34,4 @@ Utilize Python Pandas and Scikit-Learn to create multiple predictive models that
 * Obtained the best paremeters and best score from each `GridSearchCV()` of the trained models
 
 ## Analysis
-
+After creating each model, the model with the worst score was the Linear Regression model with a score of 0.66. The model with the next highest score was the SVM model with a score of 0.87. The best model with the highest score was the Random Forest decision tree model with a score of 0.89. Given the features and target, it is clear why the the best model was the Random Forest model. `RandomForestClassifier()`
