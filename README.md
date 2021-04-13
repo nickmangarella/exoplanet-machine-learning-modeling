@@ -8,10 +8,10 @@ Using the Kepler Exoplanet data (https://www.kaggle.com/nasa/kepler-exoplanet-se
 ### Step 1: Preprocess the raw data
 * Cleaned the data, dropping null columns and rows
 * Set features and target
-* Scaled the data using `MinMaxScalar()` for Linear Regression and SVM models
+* Scaled the data using `MinMaxScaler()` for Linear Regression and SVM models
 
 ### Step 2: Tune the models
-* Performed hyperparemeter tuning using `GridSearchCV()`
+* Performed hyperparameter tuning using `GridSearchCV()`
 * Changed the parameter grid for each model
   * Linear Regression
   ```
@@ -31,7 +31,7 @@ Using the Kepler Exoplanet data (https://www.kaggle.com/nasa/kepler-exoplanet-se
   ```
 
 ### Step 3: Evaluate model performance
-* Obtained the Grid's best paremeters and best score from each trained model
+* Obtained the best paremeters and best score from each `GridSearchCV()` of the trained models
 
 ## Analysis
 
