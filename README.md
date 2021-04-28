@@ -1,4 +1,4 @@
-# machine-learning-challenge
+# exoplanet-machine-learning-modeling
 
 ## Description
 Utilize Python Pandas and Scikit-Learn to create multiple predictive models that classify candidate exoplanets from the Kepler Exoplanet data source (https://www.kaggle.com/nasa/kepler-exoplanet-search-results).
